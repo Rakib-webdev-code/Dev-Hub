@@ -3,7 +3,7 @@ import { Technology } from "../types/technology"
 
 const getTechnologies = async () : Promise<Technology[]> =>{
 
-        const res = await fetch('http://localhost:5000/technologies',{cache:'no-store'})
+        const res = await fetch('http://localhost:5000/technologies',{next:{revalidate: 10}})
         if (!res.ok) {
             throw new Error("Failed to fetch technologies")
         }

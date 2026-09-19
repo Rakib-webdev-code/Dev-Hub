@@ -1,3 +1,4 @@
+import Link from "next/link"
 import type { Technology } from "../types/technology"
 
 interface TechnologyCardProps {
@@ -32,9 +33,9 @@ const TechnologyCard = ({ technology }: TechnologyCardProps) => {
           Rating: {technology.rating}/5
         </span>
 
-        <button className="rounded-full bg-gray-900 px-4 py-2 text-sm font-semibold text-white transition hover:bg-orange-500">
+        <Link href={`/technologies/${technology.id}`} className="rounded-full bg-gray-900 px-4 py-2 text-sm font-semibold text-white transition hover:bg-orange-500">
           Explore
-        </button>
+        </Link>
       </div>
     </div>
   )
