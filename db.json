@@ -1,0 +1,94 @@
+{
+  "technologies": [
+    {
+      "id": 1,
+      "name": "HTML",
+      "category": "Frontend",
+      "description": "The standard markup language used to structure web pages and applications.",
+      "icon": "🌐",
+      "rating": 4.8,
+      "difficulty": "Beginner"
+    },
+    {
+      "id": 2,
+      "name": "CSS",
+      "category": "Frontend",
+      "description": "A stylesheet language used to design and create responsive user interfaces.",
+      "icon": "🎨",
+      "rating": 4.7,
+      "difficulty": "Beginner"
+    },
+    {
+      "id": 3,
+      "name": "JavaScript",
+      "category": "Programming",
+      "description": "A programming language that adds dynamic behavior and interactivity to web applications.",
+      "icon": "⚡",
+      "rating": 4.9,
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": 4,
+      "name": "TypeScript",
+      "category": "Programming",
+      "description": "A strongly typed programming language built on top of JavaScript for scalable applications.",
+      "icon": "🔷",
+      "rating": 4.8,
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": 5,
+      "name": "React",
+      "category": "Frontend",
+      "description": "A JavaScript library for building reusable and interactive user interfaces.",
+      "icon": "⚛️",
+      "rating": 4.9,
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": 6,
+      "name": "Next.js",
+      "category": "Full Stack",
+      "description": "A React framework for building production-ready full-stack web applications.",
+      "icon": "▲",
+      "rating": 4.9,
+      "difficulty": "Advanced"
+    },
+    {
+      "id": 7,
+      "name": "Tailwind CSS",
+      "category": "Styling",
+      "description": "A utility-first CSS framework for quickly building modern and responsive interfaces.",
+      "icon": "💨",
+      "rating": 4.7,
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": 8,
+      "name": "Node.js",
+      "category": "Backend",
+      "description": "A JavaScript runtime used to build fast and scalable server-side applications.",
+      "icon": "🟢",
+      "rating": 4.8,
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": 9,
+      "name": "MongoDB",
+      "category": "Database",
+      "description": "A NoSQL database designed for flexible and scalable application data storage.",
+      "icon": "🍃",
+      "rating": 4.7,
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": 10,
+      "name": "Git",
+      "category": "Tools",
+      "description": "A distributed version control system used to track and manage source code changes.",
+      "icon": "📦",
+      "rating": 4.8,
+      "difficulty": "Beginner"
+    }
+  ]
+}
